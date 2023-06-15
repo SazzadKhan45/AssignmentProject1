@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ---Common style section start here */
+
+.white-btn {
+    color: #F15B22;
+    font-size: 20px;
+    background: #FFFFFF;
+    ;
+    padding: 20px 25px;
+    border-radius: 5px;
+    height: 64px;
+    border: none;
+}
+
+/* ---- Banner section style start here */
+.header-banner {
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 710px;
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+.banner-title {
+    text-align: right;
+    padding-right: 200px;
+    margin: auto;
+    /* justify-content: end; */
+
+}
+
+.header-failures {
+    display: flex;
+}
+
+.Title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    padding-top: 215px;
+    padding-left: 540px;
+    margin-bottom: 25px;
+}
+
+.banner-description {
+    line-height: 26px;
+    color: #444343;
+    padding-left: 575px;
+    margin-bottom: 32px;
+}
+
+.contact-btn {
+    color: white;
+    font-size: 20px;
+    background: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+    height: 64px;
+    border: none;
+}
+
+/* --------My failures section style start here */
+.failure-image {
+    padding-left: 100px;
+}
+
+.failure-title {
+    padding-right: 150px;
+    margin-top: 240px;
+    margin-left: 80px;
+}
+
+.failure-sub-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.tickmark {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 15px;
+    margin-bottom: 8px;
+}
+
+.tick-image {
+    height: 24px;
+    width: 24px;
+}
+
+/* -------My Plans section style start here */
+.my-plan {
+    display: flex;
+    gap: 10px;
+    margin-top: 130px;
+    margin-bottom: 124px;
+    padding: 0 130px 0 130px;
+}
+
+.myplan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.myplan-contents {
+    text-align: center;
+
+}
+
+.myplan-image {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 45px;
+    justify-content: center;
+}
+
+.plan-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+/* ----- Adds banner section style start here */
+
+.adds-header {
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    margin: 0 130px 130px 130px;
+}
+
+.adds-title {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 59px 500px 0 64px;
+
+}
+
+.adds-btn {
+    margin: 24px 0 59px 64px;
+}
+
+/* ---Fotter section style start here */
+.fotter-head {
+    display: flex;
+    background: #151414;
+    padding: 10px 140px 0 140px;
+    /* gap: 30px; */
+}
+
+.Future-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 130px;
+    margin-bottom: 16px;
+}
+
+.totter-description {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 300px;
+    margin-bottom: 24px;
+}
+
+.Email {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.phone {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 17px;
+    margin-bottom: 130px;
+}
+
+.subscribe {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.contact-emial {
+    background: #151414;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 325px;
+    padding: 21px 0 21px 21px;
+    margin-bottom: 16px;
+}
